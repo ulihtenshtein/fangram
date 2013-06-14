@@ -1,0 +1,23 @@
+.left {
+	text-align:left;
+	width:400;
+	border:1px solid black;
+}
+.right {
+	float:right;
+}
+
+[id^='i'] {
+			display:none;			
+		}
+div#form {
+
+	position:absolute;
+	border:1px solid black;
+	
+}
+
+body {
+	position:relative;
+	background-color:white;
+}

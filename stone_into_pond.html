@@ -1,0 +1,23 @@
+<! DOCTYPE html>
+<html>
+<head>
+<title>Камень, брошенный в пруд</title>
+<meta http-equiv="Content-Type" content="text/html;charset=windows-1251" />
+<link rel="stylesheet" type="text/css" href="css/index.css" />
+<script type="text/javascript" src="js/stone_into_pond.js"></script>
+
+</head>
+<body>
+ <div>
+  <p class="left"> Введите слово, чтобы разложить его по буквам, обнаружить слова. </p>
+  <div class="right">
+  <input type="text" value="Введите..." name="word" id="word" onfocus="clearValue()" onchange='cutword()'/>
+  <input type="button" value="Начать" name="start" onclick="cutword()" />
+  </div>
+  <p class="left">Теперь возле каждой буквы надо написать первое пришедшее в голову слово, выстроив таким образом ряд.</p>
+  <p class="left">Или – так будет интереснее – напишите  слова , образующие законченное предложение, а може, даже стих.</p>
+ </div>
+ <br />
+ <div id='form'></div>
+</body>
+</html>
