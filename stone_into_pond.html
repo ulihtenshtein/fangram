@@ -8,16 +8,10 @@
 
 </head>
 <body>
- <div>
-  <p class="left"> Введите слово, чтобы разложить его по буквам, обнаружить слова. </p>
   <div class="right">
-  <input type="text" value="Введите..." name="word" id="word" onfocus="clearValue()" onchange='cutword()'/>
-  <input type="button" value="Начать" name="start" onclick="cutword()" />
+  <input type="text" placeholder="Введите..." name="word" id="word" onchange='cutword()' size='30' /><span></span>
   </div>
-  <p class="left">Теперь возле каждой буквы надо написать первое пришедшее в голову слово, выстроив таким образом ряд.</p>
-  <p class="left">Или – так будет интереснее – напишите  слова , образующие законченное предложение, а може, даже стих.</p>
- </div>
- <br />
+  <div class = 'br'></div>
  <div id='form'></div>
 </body>
 </html>

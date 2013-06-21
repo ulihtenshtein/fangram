@@ -1,23 +1,31 @@
-.left {
-	text-align:left;
-	width:400;
-	border:1px solid black;
-}
-.right {
-	float:right;
-}
 
-[id^='i'] {
-			display:none;			
-		}
+.right {
+	margin-top:20px;
+	text-align:center;
+}
+		
+.br {
+	clear:both;
+}
 div#form {
 
-	position:absolute;
-	border:1px solid black;
+	position:relative;
+	margin-top:50px;
+	text-align:center;
 	
 }
 
 body {
 	position:relative;
 	background-color:white;
+}
+div#form > div:first-letter {
+	font-size:1.3em;
+	color:green;
+	text-transform:uppercase;
+}
+.right span {
+ font-size:2em;
+ color:green;
+ text-transform:uppercase;
 }
